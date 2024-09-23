@@ -8,7 +8,7 @@ const Layout = () => {
         <ul>
           <li>
             <NavLink
-              to="/login"
+              to="login"
               className={({ isActive }) => (isActive ? "active" : "")}
               end
             >
@@ -17,7 +17,7 @@ const Layout = () => {
           </li>
           <li>
             <NavLink
-              to="/register"
+              to="register"
               className={({ isActive }) => (isActive ? "active" : "")}
               end
             >

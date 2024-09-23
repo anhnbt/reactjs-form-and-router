@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <div>
       <h1>Hello C0424G1</h1>
-      <Link to="/login">
+      <Link to="login">
         <a>Login</a>
       </Link> | {' '}
-      <Link to="/register">
+      <Link to="register">
         <a>Register</a>
       </Link>
     </div>
